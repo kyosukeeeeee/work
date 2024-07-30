@@ -1,4 +1,16 @@
 import { useState } from "react";
+import styled from "styled-components";
+
+const styledButton = styled.button`
+  margin: auto;
+  border-radius: 9999px;
+  border: none;
+  display: block;
+  width: 120px;
+  height: 60px;
+  font-weight: bold;
+  cursor: pointer;
+`
 
 const Example = () => {
   const [isSelected, setIsSelected] = useState(false);

@@ -22,6 +22,9 @@ const Example = () => {
       <button style={style} onClick={clickHandler}>
         ボタン
       </button>
+      <button style={style}>
+        ボタン2
+      </button>
       <div style={{ textAlign: "center" }}>
         {isSelected && "クリックされました。"}
       </div>
